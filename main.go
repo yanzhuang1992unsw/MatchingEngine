@@ -26,7 +26,7 @@ func main() {
 		)
 
 		// input
-		fmt.Printf("please input order price, amount and if it is selling with space\n")
+		fmt.Printf("please input order `price`, `amount` and if it is selling (`true` or `false`) with space\n")
 		_, err := fmt.Scanf("%f %d %t\n", &price, &amount, &isSelling)
 		if err != nil {
 			fmt.Printf("Error: %s\n", err)
@@ -46,7 +46,9 @@ func main() {
 
 		// if the trade is made than the result should be a list of trade with
 		// {tradeID, orderID, price, amount}
-		fmt.Println(trade)
+		if trade != nil {
+			fmt.Println(trade)
+		}
 	}
 	//done := make(chan bool)
 }
