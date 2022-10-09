@@ -11,7 +11,7 @@ matting price or correspondingly appropriate price.
 Usually, the whole system includes several distributed systems
 with message queue as communication channel. the following gram
 is what a basic trading engine architecture would look like.
-![](images/System architecture.png)
+![](images/system-architecture.png)
 
 ## Coding Structure
 
