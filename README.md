@@ -6,8 +6,10 @@ The baseline of it is to make sure
 match buyer order and seller order together with 
 matting price or correspondingly appropriate price.
 
-## Basic Architecture
+## Language
+Golang as the main language. Version Number `1.18`. No additional module needed.
 
+## Basic Architecture
 Usually, the whole system includes several distributed systems
 with message queue as communication channel. the following gram
 is what a basic trading engine architecture would look like.
